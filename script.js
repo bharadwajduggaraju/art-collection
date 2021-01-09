@@ -167,8 +167,8 @@ if (allitems) {
     <h3 class = "name">
     ${svgs[counter]}
     </h3>
-   <img src = "svg-art/${counter+1}.svg"/>  
-    <a  href="./svg-art/${counter+1}.svg" download="${svgs[counter]}" class = "download">Download <i class = "fas fa-download"></i></a>
+   <img src = "${counter+1}.svg"/>  
+    <a  href="${counter+1}.svg" download="${svgs[counter]}" class = "download">Download <i class = "fas fa-download"></i></a>
               
    </div>
   `;
@@ -179,5 +179,4 @@ if (allitems) {
    }
   });
 }
-
 
