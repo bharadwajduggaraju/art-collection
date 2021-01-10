@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Art Collection | Generate Download Token</title>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/18baa24d-ff1f-431e-a157-74d3ddc59896%2Fbrand_icon.PNG?v=1609286971534"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!--Ion Icons Import-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aldrich&display=swap"
+      rel="stylesheet"
+    />
+    <!--Material Icons-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    
+    <!--For Encrypt-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7b9611f913.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- import the webpage's javascript file -->
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="index.html">
+              <i class="fas fa-paint-brush nav-icon"></i>
+            </a>
+          </div>
+
+          <div class="menu-icons open">
+            <i class="icon ion-md-menu"></i>
+          </div>
+
+          <ul class="nav-list">
+            <div class="menu-icons close">
+              <i class="icon ion-md-close"></i>
+            </div>
+
+            <li class="nav-item">
+              <a href="index.html" class="nav-link ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="generate_download_token.html" class="nav-link current"
+                >Download</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class = "generate">
+      <div class = "generate-wrap">
+        <h1>
+          Generate Download Token
+        </h1>
+      <button class = "original-token">
+        Generate Token
+      </button><br>
+       <button class = "new-token">
+        Generate New Token
+      </button><br>
+       <button class = "continue-token">
+        Continue With Current Token
+      </button><br>
+      <div class = "token-display">
+         <h2>
+        Current Token
+        </h2>
+        
+        <p class = "token-insert">
+          kfsajlkjdslkjfsklajflkdjfkldjflsdkfjklsal3j4
+          
+        </p>
+        </div>
+     
+        
+      </div>
+  
+    </main>
+  
+  </body>
+</html>
